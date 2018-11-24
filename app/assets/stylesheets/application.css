@@ -14,10 +14,30 @@
  *= require_self
  */
 
-html{
+html {
   font-family: sans-serif;
 }
 
-body{
-  margin:0;
+body {
+  margin: 0;
 }
+
+/* Beginning of navbar styling */
+
+nav {
+  background-color: #FFC82D;
+  padding: 1% 1% 2.5% 1%;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding-right: 1%;
+}
+
+nav img {
+  float: right;
+}
+
+/* End of navbar styling */

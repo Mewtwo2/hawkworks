@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hawkworks</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <title><%= yield :title %></title>
+    <link rel="icon" href="<%= yield :favicon %>" type="image/png"/>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <%= render 'layouts/navbar' %>
     <%= yield %>
   </body>
 </html>
