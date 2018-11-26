@@ -26,18 +26,33 @@ body {
 
 nav {
   background-color: #FFC82D;
-  padding: 1% 1% 2.5% 1%;
+  padding: 5vh 1vw;
 }
 
 nav a {
   text-decoration: none;
-  display: inline-block;
   color: #fff;
-  padding-right: 1%;
+  outline: none;
+  margin-right: 2%;
+  padding-bottom: 0.5%;
+  font-size: 1vw;
+  border-bottom: 3px solid #FFC82D; /* This border is here to make the transition to red work like it is supposed to, otherwise it just transitions the border size, not fade-in */
+  transition-property:border-bottom;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+nav a:hover{
+  border-bottom: 3px solid #E8000D;
 }
 
 nav img {
   float: right;
+  margin-top: -0.8%;
+  text-align: justify;
+  max-width: 40vw;
+  max-height: 5vh;
+  transform: rotate(-9deg);
 }
 
 /* End of navbar styling */
