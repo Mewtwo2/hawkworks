@@ -27,6 +27,10 @@ body {
 
 /* Beginning of navbar styling */
 
+a{
+  text-decoration: none;
+}
+
 #navbar{
   position: absolute;
   top:0;
@@ -35,6 +39,14 @@ body {
   background: yellow;
   width: 100%;
   box-sizing: border-box;
+}
+
+#navbar nav {
+  text-align: center;
+}
+
+#navbar nav ul li{
+  display: inline;
 }
 
 /* End of navbar styling */
