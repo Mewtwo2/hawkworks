@@ -15,7 +15,7 @@
  */
 
 html {
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1rem;
 }
 
@@ -25,18 +25,16 @@ body {
   padding: 0;
 }
 
-header{
+/* Beginning of navbar styling */
+
+#navbar{
   position: absolute;
   top:0;
   left:0;
   padding: 0 1%;
   background: yellow;
   width: 100%;
-  box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-/* Beginning of navbar styling */
-
-
 
 /* End of navbar styling */

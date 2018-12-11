@@ -5,20 +5,19 @@ class Navbar extends React.PureComponent {
 
   render() {
     return (
-      <div>
-        <div class="hamburger">&#9776;</div>
+      <header id="navbar">
+        <a href="/"><img src="https://i.ibb.co/P1b6FV3/logo.png" /></a>
         <nav>
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>
-            <li><a href="/mission">Projects &#11163;</a></li>
-            <li><a href="/outreach">Outreach &#11163;</a></li>
+            <li><a href="/mission">Projects</a></li>
+            <li><a href="/outreach">Outreach</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
-
+          <div class="hamburger">&#9776;</div>
         </nav>
-          <a href="/"><img src="https://i.ibb.co/P1b6FV3/logo.png" /></a>
-      </div>
+      </header>
     );
   }
 }
