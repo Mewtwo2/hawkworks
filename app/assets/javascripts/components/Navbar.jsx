@@ -1,4 +1,4 @@
-class Navbar extends React.Component {
+class Navbar extends React.PureComponent {
   constructor(props) {
     super(props);
   }
@@ -17,7 +17,7 @@ class Navbar extends React.Component {
           </ul>
 
         </nav>
-          <div class="menu-toggle"><a href="/"><img src="https://image.ibb.co/fStNeq/text.png" /></a></div>
+          <a href="/"><img src="https://i.ibb.co/P1b6FV3/logo.png" /></a>
       </div>
     );
   }
