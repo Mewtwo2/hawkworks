@@ -27,26 +27,58 @@ body {
 
 /* Beginning of navbar styling */
 
-a{
-  text-decoration: none;
-}
-
 #navbar{
   position: absolute;
   top:0;
   left:0;
-  padding: 0 1%;
+  padding: 2% 0% 3% 0%;
   background: yellow;
   width: 100%;
   box-sizing: border-box;
+  text-align: center;
 }
 
-#navbar nav {
-  text-align: center;
+#navbar img{
+  width: 20%;
+}
+
+#navbar nav ul{
+  margin: 3% 0 0 0;
 }
 
 #navbar nav ul li{
   display: inline;
+  padding: 0% 4.5%;
+}
+
+#navbar nav ul li a{
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+.hamburger{
+  display: none;
+  width: 10%;
+  cursor: pointer;
+  float: right;
+}
+
+@media (max-width:991px){
+
+  .hamburger{
+    display: inline;
+    margin:3% 0 0 0;
+    padding:0;
+  }
+
+  #navbar img{
+    float: left;
+  }
+
+  #navbar nav{
+    display: none;
+  }
+
 }
 
 /* End of navbar styling */

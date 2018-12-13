@@ -15,8 +15,8 @@ class Navbar extends React.PureComponent {
             <li><a href="/outreach">Outreach</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
-          <div class="hamburger">&#9776;</div>
         </nav>
+          <div class="hamburger"><img class="hamburger" src="https://i.ibb.co/MgN6qQZ/hamburger.png"/></div>
       </header>
     );
   }
