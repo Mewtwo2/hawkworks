@@ -16,7 +16,7 @@
 
 html {
   font-family: 'Merriweather', serif;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 
-#navbar img{
+.logo{
   width: 20%;
 }
 
@@ -58,7 +58,8 @@ body {
 
 .hamburger{
   display: none;
-  width: 10%;
+  width:20%;
+  height: 60%;
   cursor: pointer;
   float: right;
 }
@@ -67,16 +68,54 @@ body {
 
   .hamburger{
     display: inline;
-    margin:3% 0 0 0;
+    position: absolute;
+    right:2%;
+    margin:1.5% 0 0 0;
     padding:0;
   }
 
-  #navbar img{
-    float: left;
+  .not-active{
+    display: none;
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background: #333;
+    top:100%;
+    left:0;
+    text-align: center;
   }
 
-  #navbar nav{
-    display: none;
+  .active{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background: #333;
+    top:100%;
+    left:0;
+    text-align: center;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slideIn{
+    from{left:-100%}
+    to{left:0;}
+  }
+
+  #navbar nav ul{
+    margin:0;
+    padding: 0;
+  }
+
+  #navbar nav ul li{
+    display: block;
+    padding:4%;
+    border-bottom:1px solid #7f7f7f;
+  }
+
+  #navbar nav ul li:hover{
+    background: #fff;
   }
 
 }
