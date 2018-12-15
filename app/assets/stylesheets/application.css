@@ -36,7 +36,7 @@ main{
   top:0;
   left:0;
   padding: 2% 0% 3% 0%;
-  background: yellow;
+  /* background: yellow; */
   width: 100%;
   box-sizing: border-box;
   text-align: center;
@@ -86,7 +86,7 @@ main{
     position:absolute;
     width:100%;
     height:100vh;
-    background: #333;
+    background: #D6D0CF;
     top:100%;
     right:-100%;
     text-align: center;
@@ -99,7 +99,7 @@ main{
     position:absolute;
     width:100%;
     height:100vh;
-    background: #333;
+    background: #D6D0CF;
     top:100%;
     right:0;
     text-align: center;
@@ -119,8 +119,11 @@ main{
     border-bottom:1px solid #7f7f7f;
   }
 
-  #navbar nav ul li:hover{
-    background: #fff;
+  #navbar nav ul li:hover, #navbar nav ul li:hover a{
+    background: #AFABAA;
+    color:#555353;
+    cursor: pointer;
+    
   }
 
 }
