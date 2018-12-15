@@ -25,6 +25,10 @@ body {
   padding: 0;
 }
 
+main{
+  background: #333;
+}
+
 /* Beginning of navbar styling */
 
 #navbar{
@@ -36,6 +40,10 @@ body {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+}
+
+.hidden{
+  padding-bottom: 14.7%;
 }
 
 .logo{
