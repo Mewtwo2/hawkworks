@@ -36,7 +36,7 @@ main{
   top:0;
   left:0;
   padding: 2% 0% 3% 0%;
-  /* background: yellow; */
+  background: yellow;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
@@ -88,9 +88,9 @@ main{
     height:100vh;
     background: #D6D0CF;
     top:100%;
-    right:-100%;
+    margin-left:-100%;
     text-align: center;
-    transition-property: right;
+    transition-property: margin-left;
     transition-duration: 0.5s;
     transition-timing-function: linear;
   }
@@ -101,9 +101,9 @@ main{
     height:100vh;
     background: #D6D0CF;
     top:100%;
-    right:0;
+    margin-left:0;
     text-align: center;
-    transition-property: right;
+    transition-property: margin-left;
     transition-duration: 0.5s;
     transition-timing-function: linear;
   }
