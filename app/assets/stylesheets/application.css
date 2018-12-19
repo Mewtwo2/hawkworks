@@ -91,8 +91,8 @@ main{
     right:-100%;
     text-align: center;
     transition-property: right;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
   }
 
   .active{
@@ -104,8 +104,8 @@ main{
     right:0;
     text-align: center;
     transition-property: right;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
   }
 
   #navbar nav ul{
@@ -126,6 +126,16 @@ main{
     
   }
 
+}
+
+@media screen and (max-width:991px) and (orientation:landscape){
+  .not-active{
+    height: 200vh;
+  }
+
+  .active{
+    height: 200vh;
+  }
 }
 
 /* End of navbar styling */
