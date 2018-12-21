@@ -82,6 +82,10 @@ main{
   width:200px;
 }
 
+#navbar nav ul li ul li a{
+  color:white;
+}
+
 #navbar nav ul li a{
   text-decoration: none;
   color: #7f7f7f;
@@ -102,6 +106,8 @@ main{
     position: absolute;
     right:2%;
     margin:1.5% 0 0 0;
+    width:30px;
+    height:30px;
     padding:0;
   }
 
@@ -160,6 +166,8 @@ main{
 
   #navbar nav ul li ul li{
     width: 100%;
+    text-align: center;
+    padding-left:0;
     line-height: 50px;
   }
 
