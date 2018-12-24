@@ -35,14 +35,14 @@ main{
   position: absolute;
   top:0;
   left:0;
-  /* padding: 2% 0% 2% 0%; */
+  padding: 3% 0% 1% 0%;
   /* background: yellow; */
   width: 100%;
   box-sizing: border-box;
   text-align: center;
 }
 
-.hidden{
+.hidden-div{
   padding-bottom: 14.7%;
 }
 
@@ -131,6 +131,7 @@ main{
     background: #D6D0CF;
     top:100%;
     margin-left:0;
+    overflow: scroll;
     text-align: center;
     transition-property: margin-left;
     transition-duration: 0.5s;
@@ -149,17 +150,27 @@ main{
     border-bottom:1px solid #7f7f7f;
   }
 
+  #navbar nav ul li:hover ul{
+    display: none;
+  }
+
+  #navbar nav ul li.shown ul{
+    display: block;
+    position: relative;
+  }
+
   #navbar nav ul li:hover, #navbar nav ul li:hover a{
     background: #AFABAA;
     color:#555353;
     cursor: pointer;
   }
 
-  #navbar nav ul li:hover ul{
-    position: relative;
+  #navbar nav ul li:hover ul li a{
+    color:white;
+    background: #333;
   }
 
-  #navbar nav ul li:hover ul li a{
+  #navbar nav ul li:hover ul li{
     color:white;
     background: #333;
   }
@@ -171,16 +182,6 @@ main{
     line-height: 50px;
   }
 
-}
-
-@media screen and (max-width:991px) and (orientation:landscape){
-  .not-active{
-    height: 200vh;
-  }
-
-  .active{
-    height: 200vh;
-  }
 }
 
 /* End of navbar styling */
