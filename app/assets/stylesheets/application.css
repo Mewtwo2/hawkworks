@@ -15,44 +15,182 @@
  */
 
 html {
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
 }
 
 body {
+  background: #e7e6e6;
   margin: 0;
+  padding: 0;
+}
+
+main{
+  background: #333;
 }
 
 /* Beginning of navbar styling */
 
-nav {
-  background-color: #FFC82D;
-  padding: 5vh 1vw;
+#navbar{
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 3% 0% 1% 0%;
+  /* background: yellow; */
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-nav a {
+.hidden-div{
+  padding-bottom: 14.7%;
+}
+
+.logo{
+  width: 20%;
+}
+
+#navbar nav ul{
+  margin: 3% 0 0 0;
+}
+
+#navbar nav ul li{
+  display: inline;
+  position: relative;
+  margin: 0 6%;
+}
+
+#navbar nav ul li ul{
+  position: absolute;
+  left:0;
+  padding:0;
+  margin:0;
+  background: #333;
+  display: none;
+}
+
+#navbar nav ul li:hover ul{
+  display: block;
+  text-align: left;
+}
+
+#navbar nav ul li ul li{
+  display: block;
+  padding:1em;
+  margin-left:0; 
+  border-bottom:1px solid white;
+  width:200px;
+}
+
+#navbar nav ul li ul li a{
+  color:white;
+}
+
+#navbar nav ul li a{
   text-decoration: none;
-  color: #fff;
-  outline: none;
-  margin-right: 2%;
-  padding-bottom: 0.5%;
-  font-size: 1vw;
-  border-bottom: 3px solid #FFC82D; /* This border is here to make the transition to red work like it is supposed to, otherwise it just transitions the border size, not fade-in */
-  transition-property:border-bottom;
-  transition-duration: 1s;
-  transition-timing-function: linear;
+  color: #7f7f7f;
 }
 
-nav a:hover{
-  border-bottom: 3px solid #E8000D;
-}
-
-nav img {
+.hamburger{
+  display: none;
+  width:20%;
+  height: 60%;
+  cursor: pointer;
   float: right;
-  margin-top: -0.8%;
-  text-align: justify;
-  max-width: 40vw;
-  max-height: 5vh;
-  transform: rotate(-9deg);
+}
+
+@media (max-width:991px){
+
+  .hamburger{
+    display: inline-block;
+    position: absolute;
+    right:2%;
+    margin:1% 0 0 0;
+    width:30px;
+    height:30px;
+    padding:0;
+  }
+
+  .not-active{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background: #D6D0CF;
+    top:100%;
+    margin-left:-100%;
+    text-align: center;
+    transition-property: margin-left;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+
+  .active{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background: #D6D0CF;
+    top:100%;
+    margin-left:0;
+    overflow: scroll;
+    text-align: center;
+    transition-property: margin-left;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+
+  #navbar nav ul{
+    margin:0;
+    padding: 0;
+  }
+
+  #navbar nav ul li{
+    margin: 0;
+  }
+
+  #navbar nav ul li a{
+    display: block;
+    margin: 0;
+    line-height: 100px;
+    border-bottom:1px solid #7f7f7f;
+  }
+
+  #navbar nav ul li:hover ul{
+    display: none;
+  }
+
+  #navbar nav ul li.shown ul{
+    display: block;
+    position: relative;
+  }
+
+  #navbar nav ul li:hover, #navbar nav ul li:hover a{
+    background: #AFABAA;
+    color:#555353;
+    cursor: pointer;
+  }
+
+  #navbar nav ul li:hover ul li a{
+    color:white;
+    background: #333;
+  }
+
+  #navbar nav ul li:hover ul li{
+    color:white;
+    background: #333;
+  }
+
+  #navbar nav ul li ul li{
+    width: 100%;
+    text-align: center;
+    padding:0;
+  }
+
+}
+
+@media (max-width:570px){
+  .logo{
+    width:30%;
+  }
 }
 
 /* End of navbar styling */
