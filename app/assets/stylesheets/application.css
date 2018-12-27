@@ -144,6 +144,10 @@ main{
   }
 
   #navbar nav ul li{
+    margin: 0;
+  }
+
+  #navbar nav ul li a{
     display: block;
     margin: 0;
     line-height: 100px;
@@ -178,8 +182,7 @@ main{
   #navbar nav ul li ul li{
     width: 100%;
     text-align: center;
-    padding-left:0;
-    line-height: 50px;
+    padding:0;
   }
 
 }

@@ -41,6 +41,10 @@ class Navbar extends React.PureComponent {
     e.preventDefault();
   }
 
+  changeColor(e){
+    
+  }
+
   render() {
     return (
       <header id="navbar">
