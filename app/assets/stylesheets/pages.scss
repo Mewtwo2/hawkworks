@@ -14,14 +14,25 @@ section.hero-section img{
 
 section.hero-section p{
   position:absolute;
-  color:#595959;
   font-weight: 600;
   top:0;
   padding: 10% 0 0 40%;
   font-size: 3.4vw;
 }
 
+section.hero-section p a{
+  text-decoration: none;
+  color:#595959;
+  transition: .5s;
+}
+
+section.hero-section p a:hover{
+  color:#333;
+  transition: .5s;
+}
+
 section.hero-section p span{
+  color:#595959;
   font-weight: 500;
   font-size: 2vw;
 }
