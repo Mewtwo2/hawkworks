@@ -1,3 +1,27 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+section.hero-section{
+  position:relative;
+  width:100%;
+  margin: 1% 0 0 0;
+}
+
+section.hero-section img{
+  width:85%;
+}
+
+section.hero-section p{
+  position:absolute;
+  color:#595959;
+  font-weight: 600;
+  top:0;
+  padding: 10% 0 0 40%;
+  font-size: 3.4vw;
+}
+
+section.hero-section p span{
+  font-weight: 500;
+  font-size: 2vw;
+}
