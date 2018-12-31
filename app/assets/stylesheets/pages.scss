@@ -5,7 +5,7 @@
 section.hero-section{
   position:relative;
   width:100%;
-  margin: 1% 0 0 0;
+  margin: 3% 0 0 0;
 }
 
 section.hero-section img{
@@ -35,4 +35,42 @@ section.hero-section p span{
   color:#595959;
   font-weight: 500;
   font-size: 2.6vw;
+}
+
+section.hero-section-two{
+  position:relative;
+  width:100%;
+  margin: 5% 0 0 0;
+}
+
+section.hero-section-two img{
+  width:85%;
+  float:right;
+}
+
+section.hero-section-two p{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  padding: 1% 0 0 5%;
+  font-size: 3.7vw;
+}
+
+section.hero-section-two p a{
+  text-decoration: none;
+  color:#595959;
+  transition: .5s;
+}
+
+section.hero-section-two p a:hover{
+  color:#333;
+  transition: .5s;
+}
+
+section.hero-section-two p span{
+  position: absolute;
+  padding: 10% 0 0 0;
+  font-weight: 500;
+  font-size: 2vw;
 }
