@@ -17,7 +17,7 @@ section.hero-section p{
   font-weight: 600;
   top:0;
   padding: 10% 0 0 35%;
-  font-size: 5vw;
+  font-size: 4.25vw;
 }
 
 section.hero-section p a{
@@ -73,4 +73,25 @@ section.hero-section-two p span{
   padding: 3% 0 0 0;
   font-weight: 500;
   font-size: 2.6vw;
+}
+
+section.hero-section-three{
+  position:relative;
+  width:100%;
+  margin: 70% 0 0 0; //Margin here is unconventional due to hero-section-two having a floated image
+}
+
+section.hero-section-three img{
+  width:100%;
+  float: left;
+}
+
+section.hero-section-three p{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  margin-top: -1%;
+  padding-left: 13.5%;
+  font-size: 4.25vw;
 }
