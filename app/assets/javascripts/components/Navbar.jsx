@@ -63,9 +63,9 @@ class Navbar extends React.PureComponent {
             </li>
             <li onClick={this.triggerMenuTwo} className={(this.state.subMenuTwo) ? "hidden" : "shown"}><a onClick={this.blockRender} href="">Outreach &#11163;</a>
               <ul>
-                <li><a href="#">Ghost of Christmas Past</a></li>
-                <li><a href="#">Ghost of Christmas Present</a></li>
-                <li><a href="#">Ghost of Christmas Yet to Come</a></li>
+                <li><a href="#">Kurt Cobain</a></li>
+                <li><a href="#">Krist Novoselic</a></li>
+                <li><a href="#">Dave Grohl</a></li>
                 <li><a href="/outreach">More ...</a></li>
               </ul>
             </li>
