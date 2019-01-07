@@ -94,3 +94,22 @@ section.hero-section-three p{
   padding-left: 15%;
   font-size: 4.25vw;
 }
+
+section.hero-section-four{
+  position:relative;
+  width:100%;
+  margin: 7% 0 0 0;
+}
+
+section.hero-section-four img{
+  width:100%;
+}
+
+section.hero-section-four p{
+  position:absolute;
+  font-weight: 600;
+  color: #595959;
+  font-size: 4vw;
+  top:0;
+  padding: 0 0 0 66%;
+}
