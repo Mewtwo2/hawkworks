@@ -113,3 +113,33 @@ section.hero-section-four p{
   top:0;
   padding: 0 0 0 66%;
 }
+
+section.hero-section-five{
+  position:relative;
+  width:100%;
+  margin: 5% 0 0 0;
+}
+
+section.hero-section-five img{
+  width:100%;
+}
+
+section.hero-section-five p{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  padding: 7% 0 0 1%;
+  font-size: 3vw;
+}
+
+section.hero-section-five p a{
+  text-decoration: none;
+  color:#595959;
+  transition: .5s;
+}
+
+section.hero-section-five p a:hover{
+  color:#333;
+  transition: .5s;
+}
