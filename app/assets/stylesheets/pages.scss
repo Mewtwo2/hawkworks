@@ -1,3 +1,179 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Start of home page styling
+
+section.hero-section{
+  position:relative;
+  width:100%;
+  margin: 3% 0 0 0;
+}
+
+section.hero-section img{
+  width:85%;
+}
+
+section.hero-section p{
+  position:absolute;
+  font-weight: 600;
+  top:0;
+  padding: 10% 0 0 35%;
+  font-size: 4.25vw;
+}
+
+section.hero-section p a{
+  text-decoration: none;
+  color:#595959;
+  transition: .5s;
+}
+
+section.hero-section p a:hover{
+  color:#333;
+  transition: .5s;
+}
+
+section.hero-section p span{
+  color:#595959;
+  font-weight: 500;
+  font-size: 2.6vw;
+}
+
+section.hero-section-two{
+  position:relative;
+  width:100%;
+  margin: 5% 0 0 0;
+}
+
+section.hero-section-two img{
+  width:85%;
+  float:right;
+}
+
+section.hero-section-two p{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  padding: 0 0 0 1%;
+  font-size: 4.25vw;
+}
+
+section.hero-section-two p a{
+  text-decoration: none;
+  color:#595959;
+  transition: .5s;
+}
+
+section.hero-section-two p a:hover{
+  color:#333;
+  transition: .5s;
+}
+
+section.hero-section-two p span{
+  position: absolute;
+  padding: 3% 0 0 0;
+  font-weight: 500;
+  font-size: 2.6vw;
+}
+
+section.hero-section-three{
+  position:relative;
+  width:100%;
+  margin: 70% 0 0 0; //Margin here is unconventional due to hero-section-two having a floated image
+}
+
+section.hero-section-three img{
+  width:100%;
+}
+
+section.hero-section-three p{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  margin-top: -1%;
+  padding-left: 15%;
+  font-size: 4.25vw;
+}
+
+section.hero-section-four{
+  position:relative;
+  width:100%;
+  margin: 7% 0 0 0;
+}
+
+section.hero-section-four img{
+  width:100%;
+}
+
+section.hero-section-four p{
+  position:absolute;
+  font-weight: 600;
+  color: #595959;
+  font-size: 4vw;
+  top:0;
+  padding: 0 0 0 66%;
+}
+
+section.hero-section-five{
+  position:relative;
+  width:100%;
+  margin: 5% 0 0 0;
+}
+
+section.hero-section-five img{
+  width:100%;
+}
+
+section.hero-section-five p{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  padding: 7% 0 0 1%;
+  font-size: 3vw;
+}
+
+section.hero-section-five p a{
+  text-decoration: none;
+  color:#595959;
+  transition: .5s;
+}
+
+section.hero-section-five p a:hover{
+  color:#333;
+  transition: .5s;
+}
+
+section.hero-section-six{
+  position:relative;
+  width:100%;
+  margin: 5% 0 0 0;
+}
+
+section.hero-section-six img{
+  width:100%;
+}
+
+section.hero-section-six p{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  margin: -1% 0 0 3%; // Used margin instead of padding here because I needed to set a negative value for the top (which was not working with padding)
+  font-size: 2.7vw;
+}
+
+section.hero-section-six p a{
+  text-decoration: none;
+  color:#595959;
+  transition: .5s;
+}
+
+section.hero-section-six p a:hover{
+  color:#333;
+  transition: .5s;
+}
+
+// End of home page styling
