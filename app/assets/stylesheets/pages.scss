@@ -177,3 +177,27 @@ section.hero-section-six p a:hover{
 }
 
 // End of home page styling
+
+// Start of contact page styling
+
+section.contact-hero{
+  position:relative;
+  width:100%;
+  margin: 10% 0 0 0;
+}
+
+section.contact-hero img{
+  width:70%;
+  float:right;
+}
+
+section.contact-hero p{
+  position:absolute;
+  font-weight: 600;
+  top:0;
+  color:#595959;
+  margin: -5% 0 0 2.5%; // Used margin instead of padding here because I needed to set a negative value for the top (which was not working with padding)
+  font-size: 5vw;
+}
+
+// End of contact page styling
