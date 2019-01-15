@@ -200,4 +200,43 @@ section.contact-hero p{
   font-size: 5vw;
 }
 
+section.member-section{
+  position:relative;
+  width:100%;
+  padding: 50% 0 0 0;
+}
+
+section.member-section h1{
+  font-size: 5vw;
+  padding-left: 2.5%;
+  color:#595959;
+}
+section.member-section #member-imgone{
+  position: absolute;
+  top:0;
+  margin:60% 0 0 66%;
+  width:30%;
+}
+
+section.member-section #member-imgtwo{
+  position: absolute;
+  top:0;
+  margin:85% 0 0 60%;
+  width:40%;
+}
+
+section.member-section p{
+  position:absolute;
+  top:0;
+  color:#595959;
+  border: 3px solid #595959;
+  background: #fff;
+  line-height: 1.5em;
+  width:45%;
+  margin: 65% 0 0 2.5%;
+  padding:1%;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
 // End of contact page styling
