@@ -211,6 +211,7 @@ section.member-section h1{
   padding-left: 2.5%;
   color:#595959;
 }
+
 section.member-section #member-imgone{
   position: absolute;
   top:0;
@@ -218,11 +219,29 @@ section.member-section #member-imgone{
   width:40%;
 }
 
+section.member-section #member-captionone{
+  position:absolute;
+  top:0;
+  color:#595959;
+  font-weight: 600;
+  margin: 85% 0 0 52%;
+  font-size: 1.3vw;
+}
+
 section.member-section #member-imgtwo{
   position: absolute;
   top:0;
   margin:90% 0 0 55%;
   width:40%;
+}
+
+section.member-section #member-captiontwo{
+  position:absolute;
+  top:0;
+  color:#595959;
+  font-weight: 600;
+  margin: 126% 0 0 55%;
+  font-size: 1.3vw;
 }
 
 section.member-section p{
