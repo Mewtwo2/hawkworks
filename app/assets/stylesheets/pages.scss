@@ -226,7 +226,7 @@ section.member-section #member-captionone{
   background:none;
   border:none;
   font-weight: 600;
-  margin: 85% 0 0 54%;
+  margin: 85% 0 0 55.5%;
   font-size: 1.1vw;
 }
 
@@ -244,11 +244,11 @@ section.member-section #member-captiontwo{
   background:none;
   border:none;
   font-weight: 600;
-  margin: 125% 0 0 57%;
+  margin: 126% 0 0 58%;
   font-size: 1.1vw;
 }
 
-section.member-section p{
+section.member-section #member-info{
   position:absolute;
   top:0;
   color:#595959;
@@ -315,10 +315,10 @@ section.member-section p{
     font-size: 2.6vw;
   }
   
-  section.member-section p{
+  section.member-section #member-info{
     position:relative;
-    width:100%;
-    margin:0;
+    width:90%;
+    margin:0 auto;
     font-size: 2.6vw;
   }
 
