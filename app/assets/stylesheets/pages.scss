@@ -177,3 +177,234 @@ section.hero-section-six p a:hover{
 }
 
 // End of home page styling
+
+// Start of contact page styling
+
+section.contact-hero{
+  position:relative;
+  width:100%;
+  margin: 10% 0 0 0;
+}
+
+section.contact-hero img{
+  width:70%;
+  float:right;
+}
+
+section.contact-hero h2{
+  position:absolute;
+  font-weight: 600;
+  top:0;
+  color:#595959;
+  margin: -5% 0 0 2.5%; // Used margin instead of padding here because I needed to set a negative value for the top (which was not working with padding)
+  font-size: 5vw;
+}
+
+section.member-section{
+  position:relative;
+  width:100%;
+  padding: 50% 0 0 0;
+}
+
+section.member-section h2{
+  font-size: 5vw;
+  padding-left: 2.5%;
+  color:#595959;
+}
+
+section.member-section section#map-section{
+  position: absolute;
+  top:0;
+  width:40%;
+  margin: 65% 0 0 55%;
+  text-align: center;
+}
+
+section.member-section section#map-section img#member-imgone{
+  width:100%;
+}
+
+section.member-section section#map-section p.image-caption{
+  color:#595959;
+  font-weight: 600;
+  font-size: 1.1vw;
+}
+
+section.member-section section#stspbuilding-section{
+  position: absolute;
+  top:0;
+  width:40%;
+  margin: 105% 0 0 54.5%;
+  text-align: center;
+}
+
+section.member-section section#stspbuilding-section img#member-imgtwo{
+  width:100%;
+}
+
+section.member-section section#stspbuilding-section p.image-caption{
+  color:#595959;
+  font-weight: 600;
+  font-size: 1.1vw;
+}
+
+section.member-section #member-info{
+  position:absolute;
+  top:0;
+  color:#595959;
+  border: 3px solid #595959;
+  background: #fff;
+  line-height: 1.5em;
+  width:45%;
+  margin: 65% 0 0 2.5%;
+  padding:1%;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
+section.nonmember-section{
+  position:relative;
+  width:100%;
+  margin: 83% 0 0 0;
+}
+
+section.nonmember-section h2{
+  font-size: 5vw;
+  padding-left: 2.5%;
+  color:#595959;
+}
+
+section.nonmember-section #nonmember-info1{
+  position:absolute;
+  top:0;
+  color:#595959;
+  border: 3px solid #595959;
+  background: #fff;
+  line-height: 1.5em;
+  width:45%;
+  margin: 12% 0 0 2.5%;
+  padding:1%;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
+section.nonmember-section #nonmember-info2{
+  position:absolute;
+  top:0;
+  color:#595959;
+  border: 3px solid #595959;
+  background: #fff;
+  line-height: 1.5em;
+  width:45%;
+  margin: 12% 0 0 53%;
+  padding:1%;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
+section.nonmember-section #disclaimer{
+  position:absolute;
+  top:0;
+  color:#595959;
+  line-height: 1.5em;
+  margin: 60% 0 0 0%;
+  padding:3%;
+  font-size: 1.5vw;
+}
+
+@media (max-width:991px) {
+
+  section.contact-hero img{
+    width:100%;
+    float: none;
+  }
+  
+  section.contact-hero h2{
+    text-align: center;
+    position: relative;
+    font-size: 6vw;
+  }
+
+  section.member-section{
+    position:relative;
+    padding: 0;
+    text-align: center;
+  }
+  
+  section.member-section h2{
+    font-size: 6vw;
+    padding-left: 0;
+  }
+
+  section.member-section section#map-section{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 3% auto;
+  }
+
+  section.member-section section#map-section img#member-imgone{
+    width:75%;
+  }
+
+  section.member-section section#map-section p.image-caption{
+    font-size: 2.6vw;
+  }
+
+  section.member-section section#stspbuilding-section{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 3% auto;
+  }
+
+  section.member-section section#map-section img#member-imgtwo{
+    width:80%;
+  }
+
+  section.member-section section#stspbuilding-section p.image-caption{
+    font-size: 2.6vw;
+  }
+  
+  section.member-section #member-info{
+    position:relative;
+    width:90%;
+    margin:0 auto;
+    font-size: 2.6vw;
+    text-align: left;
+  }
+
+  section.nonmember-section{
+    text-align: center;
+    margin: 7% 0 0 0;
+  }
+  
+  section.nonmember-section #nonmember-info1{
+    position: relative;
+    width:90%;
+    padding:1%;
+    margin:0 auto;
+    box-sizing: border-box;
+    font-size: 2.6vw;
+    text-align: left;
+  }
+  
+  section.nonmember-section #nonmember-info2{
+    position: relative;
+    width:90%;
+    padding:1%;
+    margin:3% auto;
+    box-sizing: border-box;
+    font-size: 2.6vw;
+    text-align: left;
+  }
+  
+  section.nonmember-section #disclaimer{
+    position:relative;
+    margin:0;
+    font-size: 2.6vw;
+  }
+
+}
+
+// End of contact page styling
