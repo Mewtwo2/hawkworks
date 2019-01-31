@@ -17,3 +17,20 @@
 //= require react_ujs
 //= require components
 //= require_tree .
+
+function helloworld() {
+
+    var nav = document.getElementsByTagName('nav');
+    var body = document.getElementsByTagName('body');
+    var navClass = nav[0].className;
+
+    if (navClass == 'not-active') {
+        navClass = 'inactive';
+        body[0].className = 'scroll-inactive';
+
+    } else {
+        navClass = 'active';
+        body[0].className = 'scroll-active';
+    }
+
+}

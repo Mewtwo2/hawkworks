@@ -19,10 +19,17 @@ html {
   font-size: 1em;
 }
 
-body {
+body.scroll-active {
   background: #e7e6e6;
   margin: 0;
   padding: 0;
+}
+
+body.scroll-inactive {
+  background: #e7e6e6;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
 }
 
 /* Beginning of navbar styling */
@@ -133,6 +140,7 @@ body {
   #navbar nav ul{
     margin:0;
     padding: 0;
+    padding-bottom: 15%;
   }
 
   #navbar nav ul li{
@@ -177,6 +185,15 @@ body {
     padding:0;
   }
 
+}
+
+@media (orientation:landscape){
+  .not-active{
+    height:80vh;
+  }
+  .active{
+    height:80vh;
+  }
 }
 
 @media (max-width:570px){

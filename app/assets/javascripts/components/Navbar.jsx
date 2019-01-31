@@ -41,10 +41,6 @@ class Navbar extends React.PureComponent {
     e.preventDefault();
   }
 
-  changeColor(e){
-    
-  }
-
   render() {
     return (
       <header id="navbar">
@@ -53,7 +49,7 @@ class Navbar extends React.PureComponent {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>
-            <li onClick={this.triggerMenuOne} className={(this.state.subMenuOne) ? "hidden" : "shown"}><a onClick={this.blockRender} href="">Projects &#11163;</a>
+            <li onClick={this.triggerMenuOne} className={(this.state.subMenuOne) ? "hidden" : "shown"}><a onClick={this.blockRender} href="">Projects</a>
               <ul>
                 <li><a href="#">Jet Kart</a></li>
                 <li><a href="#">Tesla Coil</a></li>
@@ -61,7 +57,7 @@ class Navbar extends React.PureComponent {
                 <li><a href="/mission">More ...</a></li>
               </ul>
             </li>
-            <li onClick={this.triggerMenuTwo} className={(this.state.subMenuTwo) ? "hidden" : "shown"}><a onClick={this.blockRender} href="">Outreach &#11163;</a>
+            <li onClick={this.triggerMenuTwo} className={(this.state.subMenuTwo) ? "hidden" : "shown"}><a onClick={this.blockRender} href="">Outreach</a>
               <ul>
                 <li><a href="#">Kurt Cobain</a></li>
                 <li><a href="#">Krist Novoselic</a></li>
@@ -72,7 +68,7 @@ class Navbar extends React.PureComponent {
             <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
-        <div className="hamburger" onClick={this.toggleClass}><img className="hamburger" src="https://i.ibb.co/MgN6qQZ/hamburger.png" /></div>
+        <div className="hamburger" onClick={this.toggleClass}><img className="hamburger" onClick={helloworld} src="https://i.ibb.co/MgN6qQZ/hamburger.png" /></div>
       </header>
     );
   }
