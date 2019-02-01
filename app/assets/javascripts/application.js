@@ -18,10 +18,8 @@
 //= require components
 //= require_tree .
 
-function helloworld() {
-
+function changeBodyScroll() {
     var nav = document.getElementsByTagName('nav');
-    var html = document.getElementsByTagName('html');
     var body = document.getElementsByTagName('body');
     var navClass = nav[0].className;
 

@@ -64,6 +64,7 @@ body.scroll-inactive {
   display: inline;
   position: relative;
   margin: 0 6%;
+  font-weight: 700;
 }
 
 #navbar nav ul li ul{
@@ -86,6 +87,7 @@ body.scroll-inactive {
   margin-left:0; 
   border-bottom:1px solid white;
   width:200px;
+  font-weight: initial;
 }
 
 #navbar nav ul li svg{
@@ -172,11 +174,11 @@ body.scroll-inactive {
     position: relative;
   }
 
-  #navbar nav ul li:hover, #navbar nav ul li:hover a{
+  /* #navbar nav ul li:hover, #navbar nav ul li:hover a{
     background: #AFABAA;
     color:#555353;
     cursor: pointer;
-  }
+  } */
 
   #navbar nav ul li:hover ul li a{
     color:white;
