@@ -14,15 +14,9 @@
  *= require_self
  */
 
-html.scroll-active {
+html {
   font-family: 'Merriweather', serif;
   font-size: 1em;
-}
-
-html.scroll-inactive {
-  font-family: 'Merriweather', serif;
-  font-size: 1em;
-  overflow:hidden;
 }
 
 body.scroll-active {
@@ -35,7 +29,10 @@ body.scroll-inactive {
   background: #e7e6e6;
   margin: 0;
   padding: 0;
-  overflow:hidden;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
 }
 
 /* Beginning of navbar styling */

@@ -28,12 +28,10 @@ function helloworld() {
     if (navClass == 'not-active') {
         navClass = 'inactive';
         body[0].className = 'scroll-inactive';
-        html[0].className = 'scroll-inactive';
 
     } else {
         navClass = 'active';
         body[0].className = 'scroll-active';
-        html[0].className = 'scroll-active';
     }
 
 }
