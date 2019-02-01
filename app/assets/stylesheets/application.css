@@ -14,9 +14,15 @@
  *= require_self
  */
 
-html {
+html.scroll-active {
   font-family: 'Merriweather', serif;
   font-size: 1em;
+}
+
+html.scroll-inactive {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  overflow:hidden;
 }
 
 body.scroll-active {
