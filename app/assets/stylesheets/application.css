@@ -26,13 +26,13 @@ body.scroll-active {
 }
 
 body.scroll-inactive {
+  position: fixed;
   background: #e7e6e6;
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
   width: 100%;
-  position: fixed;
+  overflow: hidden;
 }
 
 /* Beginning of navbar styling */
@@ -86,6 +86,12 @@ body.scroll-inactive {
   margin-left:0; 
   border-bottom:1px solid white;
   width:200px;
+}
+
+#navbar nav ul li svg{
+  position: relative;
+  top:0.6em;
+  left: 0.5em;
 }
 
 #navbar nav ul li ul li a{
