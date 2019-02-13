@@ -13,8 +13,6 @@ class Navbar extends React.PureComponent {
     this.triggerMenuTwo = this.triggerMenuTwo.bind(this);
 
     this.blockRender = this.blockRender.bind(this);
-
-    this.testing = this.testing.bind(this);
   }
 
   toggleClass(e) {
@@ -43,18 +41,13 @@ class Navbar extends React.PureComponent {
     e.preventDefault();
   }
 
-  testing(num){
-    var drops = document.getElementsByClassName('dropdown');
-    // drops[num].style.
-  }
-
   render() {
     return (
       <header id="navbar">
         <a href="/"><img src="https://i.ibb.co/P1b6FV3/logo.png" className="logo" /></a>
         <nav className={(this.state.isActive) ? 'not-active' : 'active'}>
           <ul>
-            <li className="dropdown" onMouseDown={() => {this.testing(53);}} ><a href="/">Home</a></li>
+            <li className="dropdown"><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>
             <li onClick={this.triggerMenuOne} className={(this.state.subMenuOne) ? "hidden" : "shown"}><a onClick={this.blockRender} href="">Projects
             <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
@@ -90,9 +83,9 @@ class Navbar extends React.PureComponent {
               </svg>
             </a>
               <ul>
-                <li><a href="#">Kurt Cobain</a></li>
-                <li><a href="#">Krist Novoselic</a></li>
-                <li><a href="#">Dave Grohl</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Saint_Valentine">Saint_Valentine</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Via_Flaminia">Via Flaminia</a></li>
+                <li><a href="https://tinyurl.com/y2ve6a4u">Basilica of Santa Maria</a></li>
                 <li><a href="/outreach">More ...</a></li>
               </ul>
             </li>
