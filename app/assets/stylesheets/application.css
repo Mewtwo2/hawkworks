@@ -61,7 +61,7 @@ body.scroll-inactive {
 }
 
 #navbar nav ul li{
-  display: inline;
+  display: inline-block;
   position: relative;
   margin: 0 5%;
   font-weight: 700;
@@ -155,6 +155,7 @@ body.scroll-inactive {
   }
 
   #navbar nav ul li{
+    display: inline;
     margin: 0;
   }
 
