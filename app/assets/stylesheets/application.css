@@ -19,10 +19,22 @@ html {
   font-size: 1em;
 }
 
-body {
+body.scroll-active {
   background: #e7e6e6;
   margin: 0;
   padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+body.scroll-inactive {
+  position: fixed;
+  background: #e7e6e6;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  -webkit-text-size-adjust: none;
 }
 
 /* Beginning of navbar styling */
@@ -51,9 +63,10 @@ body {
 }
 
 #navbar nav ul li{
-  display: inline;
+  display: inline-block;
   position: relative;
-  margin: 0 6%;
+  margin: 0 5%;
+  font-weight: 700;
 }
 
 #navbar nav ul li ul{
@@ -76,6 +89,13 @@ body {
   margin-left:0; 
   border-bottom:1px solid white;
   width:200px;
+  font-weight: initial;
+}
+
+#navbar nav ul li svg{
+  position: relative;
+  top:0.6em;
+  left: 0.5em;
 }
 
 #navbar nav ul li ul li a{
@@ -133,9 +153,11 @@ body {
   #navbar nav ul{
     margin:0;
     padding: 0;
+    padding-bottom: 35%;
   }
 
   #navbar nav ul li{
+    display: inline;
     margin: 0;
   }
 
@@ -155,11 +177,11 @@ body {
     position: relative;
   }
 
-  #navbar nav ul li:hover, #navbar nav ul li:hover a{
+  /* #navbar nav ul li:hover, #navbar nav ul li:hover a{
     background: #AFABAA;
     color:#555353;
     cursor: pointer;
-  }
+  } */
 
   #navbar nav ul li:hover ul li a{
     color:white;
@@ -177,6 +199,15 @@ body {
     padding:0;
   }
 
+}
+
+@media (orientation:landscape) and (max-width:991px){
+  .not-active{
+    height:80vh;
+  }
+  .active{
+    height:80vh;
+  }
 }
 
 @media (max-width:570px){
