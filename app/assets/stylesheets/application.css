@@ -177,12 +177,6 @@ body.scroll-inactive {
     position: relative;
   }
 
-  /* #navbar nav ul li:hover, #navbar nav ul li:hover a{
-    background: #AFABAA;
-    color:#555353;
-    cursor: pointer;
-  } */
-
   #navbar nav ul li:hover ul li a{
     color:white;
     background: #333;
