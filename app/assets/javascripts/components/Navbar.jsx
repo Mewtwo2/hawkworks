@@ -89,8 +89,8 @@ class Navbar extends React.PureComponent {
                 <li><a href="/outreach">More ...</a></li>
               </ul>
             </li>
-            <li><a href="/contact">Contact</a></li>
             <li><a href="/sponsorship">Sponsorship</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
         <div className="hamburger" onClick={this.toggleClass}><img className="hamburger" onClick={changeBodyScroll} src="https://i.ibb.co/MgN6qQZ/hamburger.png" /></div>
