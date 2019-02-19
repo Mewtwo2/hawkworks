@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   def outreach
   end
 
+  def sponsorship
+  end
+
   def contact
   end
 end

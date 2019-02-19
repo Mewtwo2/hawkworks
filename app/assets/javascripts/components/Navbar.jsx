@@ -89,6 +89,7 @@ class Navbar extends React.PureComponent {
                 <li><a href="/outreach">More ...</a></li>
               </ul>
             </li>
+            <li><a href="/sponsorship">Sponsorship</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>

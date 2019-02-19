@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/about' => 'pages#about'
   get '/mission' => 'pages#mission'
   get '/outreach' => 'pages#outreach'
+  get '/sponsorship' => 'pages#sponsorship'
   get '/contact' => 'pages#contact'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
