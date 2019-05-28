@@ -431,11 +431,22 @@ section.outreach-section-one h2{
   font-size: 3.75vw;
 }
 
-section.outreach-section-one p{
+section.outreach-section-one p.outreach-capone{
   position:absolute;
   top:0;
+  font-weight:600;
   color:#595959;
   padding: 15% 5% 0 5%;
+  font-size: 2vw;
+  z-index: 1;
+}
+
+section.outreach-section-one p.outreach-captwo{
+  position:absolute;
+  top:0;
+  font-weight:600;
+  color:#595959;
+  padding: 30% 5% 0 5%;
   font-size: 2vw;
 }
 
