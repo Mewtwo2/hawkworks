@@ -49,6 +49,7 @@ class Navbar extends React.PureComponent {
           <ul>
             <li className="dropdown"><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>
+            <li><a href="/members">Members</a></li>
             <li onClick={this.triggerMenuOne} className={(this.state.subMenuOne) ? "hidden" : "shown"}><a onClick={this.blockRender} href="">Projects
             <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
 
