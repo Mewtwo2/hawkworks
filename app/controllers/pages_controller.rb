@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def about
   end
 
+  def members
+  end  
+
   def mission
   end
 

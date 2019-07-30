@@ -408,3 +408,60 @@ section.nonmember-section #disclaimer{
 }
 
 // End of contact page styling
+
+// Start of Outreach page styling
+
+section.outreach-section-one{
+  position:relative;
+  width:100%;
+  margin: 3% 0 0 0;
+}
+
+section.outreach-section-one img{
+  padding-left: 14vw;
+  width:85%;
+}
+
+section.outreach-section-one h2{
+  position:absolute;
+  font-weight: 600;
+  color:#595959;
+  top:0;
+  padding: 0 5% 0 5%;
+  font-size: 3.75vw;
+}
+
+section.outreach-section-one p.outreach-capone{
+  position:absolute;
+  top:0;
+  font-weight:600;
+  color:#595959;
+  padding: 15% 5% 0 5%;
+  font-size: 2vw;
+  z-index: 1;
+}
+
+section.outreach-section-one p.outreach-captwo{
+  position:absolute;
+  top:0;
+  font-weight:600;
+  color:#595959;
+  padding: 30% 5% 0 5%;
+  font-size: 2vw;
+}
+
+section.outreach-section-one #hawkworks-outreachinfo{
+  position:absolute;
+  top:0;
+  color:#595959;
+  border: 3px solid #595959;
+  background: rgba(255, 255, 255, 0.5);
+  line-height: 1.5em;
+  width:95%;
+  margin: 50% 0 0 2.5%;
+  padding:2%;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
+// End of Outreach page styling

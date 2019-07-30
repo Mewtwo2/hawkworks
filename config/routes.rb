@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   get '/about' => 'pages#about'
+  get '/members' => 'pages#members'
   get '/mission' => 'pages#mission'
   get '/outreach' => 'pages#outreach'
   get '/sponsorship' => 'pages#sponsorship'
