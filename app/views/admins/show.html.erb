@@ -1,0 +1,6 @@
+<% if logged_in? %>
+<h1>Admin Show Page</h1>
+<%= link_to 'Log Out', logout_path, method: :delete %>
+<% else %>
+<h1>Log In</h1>
+<% end %>
