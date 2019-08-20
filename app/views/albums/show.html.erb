@@ -1,0 +1,4 @@
+<h1><%= @album.title %></h1>
+<% @album.images.each do |i| %>
+    <%= image_tag i %>
+<% end %>

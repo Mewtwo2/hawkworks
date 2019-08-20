@@ -1,0 +1,6 @@
+<h1>Create new album</h1>
+<%= form_for(@album) do |f| %>
+    <%= f.text_field :title %><br/><br/>
+    <%= f.file_field :images, :multiple=>true %><br/><br/>
+    <%= f.submit "Create Album" %>
+<% end %>

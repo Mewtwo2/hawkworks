@@ -84,9 +84,9 @@ class Navbar extends React.PureComponent {
               </svg>
             </a>
               <ul>
-                <li><a href="https://en.wikipedia.org/wiki/Saint_Valentine">Saint Valentine</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Via_Flaminia">Via Flaminia</a></li>
-                <li><a href="https://upload.wikimedia.org/wikipedia/commons/0/01/Rom%2C_Santa_Maria_in_Cosmedin%2C_Reliquien_des_Hl._Valentin_von_Terni.jpg">Basilica of Santa Maria</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Saint_Valentine">Link 1</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Via_Flaminia">Link 2</a></li>
+                <li><a href="https://upload.wikimedia.org/wikipedia/commons/0/01/Rom%2C_Santa_Maria_in_Cosmedin%2C_Reliquien_des_Hl._Valentin_von_Terni.jpg">Link 3</a></li>
                 <li><a href="/outreach">More ...</a></li>
               </ul>
             </li>
