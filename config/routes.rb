@@ -6,8 +6,12 @@ Rails.application.routes.draw do
   post '/login' => 'sessions#create'
   delete '/logout' => 'sessions#destroy'
 
-  resources :albums
-
+  resources :albums do
+    member do
+      delete :delete_image
+    end
+  end
+  
   get '/about' => 'pages#about'
   get '/members' => 'pages#members'
   get '/mission' => 'pages#mission'
