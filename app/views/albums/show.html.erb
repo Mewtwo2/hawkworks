@@ -1,7 +1,9 @@
-<h1><%= @album.title %></h1>
+<h1 id="album-title"><%= @album.title %></h1>
 <% if @album.images.attached? %>
 <% @album.images.each do |i| %>
-    <%= image_tag i %>
+<div class="album-grid-container">
+    <div class="album-grid-item"><%= image_tag i %></div>
     <%= link_to 'Remove', delete_image_album_url(i.id),method: :delete, data: { confirm: 'Are you sure?' } %>
+</div>
 <% end %>
 <% end %>
