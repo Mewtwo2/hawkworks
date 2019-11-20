@@ -7,10 +7,13 @@
 }
 
 .album-grid-container{
-    display:grid;
-    grid-gap:50px;
+    display: grid;
+    padding-left: 5vw;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 30px 30px;
+    max-width: 100%;
 }
 
 .album-grid-item img{
-    width:30%;
+    width:20vw;
 }
