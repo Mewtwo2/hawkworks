@@ -4,7 +4,7 @@
 <% @album.images.each do |i| %>
     <div class="album-grid-item">
         <%= image_tag i %>
-        <%= link_to 'Remove', delete_image_album_url(i.id),method: :delete, data: { confirm: 'Are you sure?' } %>
+        <%= link_to image_tag('https://img.icons8.com/plasticine/100/000000/trash--v2.png', :class => "trash-icon"), delete_image_album_url(i.id),method: :delete, data: { confirm: 'Are you sure?' } %>
     </div>
 <% end %>
 </div>

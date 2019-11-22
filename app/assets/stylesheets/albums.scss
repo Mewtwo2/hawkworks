@@ -8,7 +8,7 @@
 
 .album-grid-container{
     display: grid;
-    padding-left: 5vw;
+    padding-left: 10vw;
     grid-template-columns: 30% 30% 30%;
     grid-gap: 30px 30px;
     max-width: 100%;
@@ -16,4 +16,12 @@
 
 .album-grid-item img{
     width:20vw;
+    border: 5px solid #595959;
+}
+
+.trash-icon{
+    // display: none;
+    border: 0px solid black !important;
+    width:30px !important;
+    height:30px;
 }
